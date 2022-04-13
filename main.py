@@ -15,5 +15,5 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 
 driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"})
 driver.implicitly_wait(10)
-driver.get("https://www.facebook.com/SabrinaPingpingNG")
+driver.get("https://www.facebook.com/officiallexiunderwood")
 print(driver.page_source)
